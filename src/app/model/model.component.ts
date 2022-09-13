@@ -39,7 +39,7 @@ export class ModelComponent {
 
   ngAfterViewInit() {
     console.log('ModelComponent(' + this.myModel.id + ').ngAfterViewInit() is called!');
-    this.jsPlumbService.initModel(this.myModel);
+    // this.jsPlumbService.initModel(this.myModel);
   }
 
   ngOnDestroy() {

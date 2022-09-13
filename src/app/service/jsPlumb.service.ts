@@ -153,12 +153,12 @@ export class JsPlumbService {
   public repaintEverything(): void {
 
     console.log('JsPlumbService.repaintEverything() is called!');
-    this._instance.repaintEverything();
+    // this._instance.repaintEverything();
   }
 
   public deleteAll(): void {
 
     console.log('JsPlumbService.deleteAll() is called!');
-    this._instance.deleteEveryEndpoint();
+    // this._instance.deleteEveryEndpoint();
   }
 }
